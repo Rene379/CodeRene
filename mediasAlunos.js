@@ -15,7 +15,7 @@ let med = ((nota01 + nota02) / 2);
 
 if (med === 10) {
     console.log ("Aprovado com Distinção! Parabéns!")
-} else if (med >= 7 < 10) {
+} else if (med >= 7) {
     console.log ("Aprovado!")
 } else {
     console.log ("Reprovado. Na próxima você consegue!")
