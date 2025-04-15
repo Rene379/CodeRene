@@ -9,7 +9,7 @@ Descrição: Crie um programa que solicita ao usuário que digite um número e v
     const { execSync } = require('child_process');
     return execSync('read input && echo "$input"', { stdio: ['inherit', 'pipe', 'inherit'] })
         .toString().trim();
-}
+};
 
 let num1 = input("digite um número");
 let number1 = Number(num1);

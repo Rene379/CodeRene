@@ -10,7 +10,7 @@ function input(texto) {
     const { execSync } = require('child_process');
     return execSync('read input && echo "$input"', { stdio: ['inherit', 'pipe', 'inherit'] })
         .toString().trim();
-}
+};
 
 let num1 = input("digite o primeiro número: ");
 let number1 = Number(num1);

@@ -9,7 +9,7 @@ function input(texto) {
     const { execSync } = require('child_process');
     return execSync('read input && echo "$input"', { stdio: ['inherit', 'pipe', 'inherit'] })
         .toString().trim();
-}
+};
 
 let peso = input("Informe o peso do lutador ");
 let categoria = Number(peso);

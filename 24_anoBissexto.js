@@ -14,7 +14,7 @@ function input(texto) {
     const { execSync } = require('child_process');
     return execSync('read input && echo "$input"', { stdio: ['inherit', 'pipe', 'inherit'] })
         .toString().trim();
-}
+};
 
 let y1 = input("Informe o ano: ");
 let y2 = Number(y1);
@@ -23,4 +23,4 @@ if (y2/4 == y2 % 2) {
     console.log("Este ano é bissexto")
 } else {
     console.log("Este ano não é bissexto")
-}
+};

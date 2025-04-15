@@ -11,7 +11,7 @@ function input(texto) {
     const { execSync } = require('child_process');
     return execSync('read input && echo "$input"', { stdio: ['inherit', 'pipe', 'inherit'] })
         .toString().trim();
-}
+};
 
 let s1 = input("Informe o primeiro lado: ");
 let lado1 = Number(s1);

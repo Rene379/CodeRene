@@ -12,7 +12,7 @@ function input(texto) {
     const { execSync } = require('child_process');
     return execSync('read input && echo "$input"', { stdio: ['inherit', 'pipe', 'inherit'] })
         .toString().trim();
-}
+};
 
 let num1 = input("Informe o número: ");
 let num2 = Number(num1);
@@ -23,4 +23,4 @@ if(num2 % num2 === 0) {
     console.log("Este é um número primo")
 } else {
     console.log("Este não é um número primo")
-}
+};

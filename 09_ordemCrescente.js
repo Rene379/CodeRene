@@ -9,7 +9,7 @@ function input(texto) {
     const { execSync } = require('child_process');
     return execSync('read input && echo "$input"', { stdio: ['inherit', 'pipe', 'inherit'] })
         .toString().trim();
-}
+};
 
 let num1 = input("Informe o primeiro número: ");
 let numero1 = Number(num1);
@@ -25,5 +25,5 @@ if (numero1 < numero2 && numero2 < numero3){
     console.log ("Esta é uma ordem crescente")
 } else{
     console.log("Esta não é uma ordem crescente")
-}
+};
 
