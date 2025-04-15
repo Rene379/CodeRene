@@ -24,4 +24,4 @@ if (number1 > number2) {
     console.log("Os números são iguais")
 } else {
     console.log("O segundo número é maior")
-}
+};

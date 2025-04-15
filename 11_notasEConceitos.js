@@ -24,4 +24,4 @@ if (nota >= 90 && nota <= 100){
     console.log("Seu aproveitamento é D")
 } else {
     console.log ("Que pena, seu aproveitamento foi F")
-}
+};
