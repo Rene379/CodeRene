@@ -2,7 +2,7 @@
 **Descrição:** Escreva um programa que verifica se um número é primo (divisível apenas por 1 e por ele mesmo).
 **Objetivos de aprendizado:** Implementar lógica algorítmica com verificação de divisibilidade.
 **Dica:** Um número primo maior que 2 não é divisível por 2. Isso pode ser usado para otimizar a verificação.
-*/
+** OBS FAZER ESTE APENAS NO FINAL DOS CONCEITOS */
 
 const { measureMemory } = require('vm');
 
