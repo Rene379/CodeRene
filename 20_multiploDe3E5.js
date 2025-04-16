@@ -12,8 +12,12 @@ function input(texto) {
         .toString().trim();
 };
 
-let n1 = input("Informe o salario: ");
+let n1 = input("Informe o número: ");
 let multi = Number (n1);
 
-
+if (multi % 15 == 0) {
+    console.log ("É múltiplo de 3 e 5")
+}   else {
+    console.log("Não é míltiplo de 3 e 5")
+}; 
 
