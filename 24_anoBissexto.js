@@ -17,10 +17,12 @@ function input(texto) {
 };
 
 let y1 = input("Informe o ano: ");
-let y2 = Number(y1);
+let year = Number(y1);
 
-if (y2/4 == y2 % 2) {
-    console.log("Este ano é bissexto")
+
+if (year% 4 == 0 && year % 100 !== 0 || year % 400 == 0) {
+    console.log("Este é um ano bissexto")
 } else {
-    console.log("Este ano não é bissexto")
+    console.log("Este não é um ano bissexto")
 };
+
