@@ -20,10 +20,8 @@ let limite = Number(l1);
 const v1 = input("Informe a velocidade (km/h): ");
 const velocidade = Number(v1);
 
-
-limite == velocidade;
 const acimaLimiteAte20 = velocidade > limite && velocidade <= (limite * 1.20);
-const acimaLimiteMaisde20Ate50 = velocidade > acimaLimiteAte20 && velocidade <= (limite * 1.50);
+const acimaLimiteMaisde20Ate50 = velocidade > (limite * 1.20) && velocidade <= (limite * 1.50);
 
 
 if (velocidade <= limite) {
