@@ -34,6 +34,6 @@ if (velocidade <= limite) {
     console.log("A multa é de R$ 195,00")
 } else {
     console.log("A multa é de R$ 880,00.")
-}
+};
 
 
