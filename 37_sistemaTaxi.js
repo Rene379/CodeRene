@@ -17,14 +17,14 @@ const km1 = input("Informe o tamanho da viagem (em Km): ");
 const kmViagem = Number(km1);
 const hora = input("Informe o horário: ");
 const horaViagem = Number(hora);
-let horarioDiurno = (6 || 7 || 8 || 9 || 10 || 11 || 12 || 13 || 14 || 15 || 16 || 17 || 18 || 19 || 20 || 21)
-let horarioNoturno = (22 || 23 || 0 || 1 || 2 || 3 || 4 || 5)
+const horarioDiurno = [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+const horarioNoturno = [22, 23, 0, 1, 2, 3, 4, 5]
 const bandeira1 = ((3.5 * kmViagem) + 5).toFixed(2)
 const bandeira2 = ((4.2 * kmViagem) + 5).toFixed(2)
 
-if (horaViagem == horarioDiurno) {
+if (horarioDiurno.includes(horaViagem)) {
     console.log(`O preço da viagem é de R$ ${bandeira1}.`)
-} else if (horaViagem == horarioNoturno) {
+} else if (horarioNoturno.includes(horaViagem)) {
     console.log(`O preço da viagem é de R$ ${bandeira2}`)
 } else {
     console.log('fim')
