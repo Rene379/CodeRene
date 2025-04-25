@@ -24,3 +24,4 @@ if (idade <= 5) {
 } else {
     console.log("O valor do rodízio é de R$ 35,00.")
 };
+
