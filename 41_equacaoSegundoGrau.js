@@ -34,4 +34,5 @@ if (delta < 0) {
     console.log (`A raiz real é ${bhask1 || bhask2}`)
 } else {
     console.log (`As raízes reais são: ${bhask1} e ${bhask2} `)
-}; 
+};
+ 
