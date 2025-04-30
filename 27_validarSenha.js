@@ -40,7 +40,7 @@ for (const caractere of senha) {
         temMinuscula = true
         continue
     }
-}
+};
 
 if (tem8Carac && temDigito && temMaiuscula && temMinuscula) {
     console.log("Senha cadastrada com sucesso!")
