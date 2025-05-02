@@ -13,11 +13,11 @@ function input(texto) {
 };
 
 const n1 = input("Informe o número: ");
-const numero1 = (n1);
+const numeroNormal = (n1);
 
-const numeroEhPalindromo = numero1.split("").reverse().join("");
+const numeroInvertido = numeroNormal.split("").reverse().join("");
 
-if (numero1 == numeroEhPalindromo) {
+if (numeroNormal == numeroInvertido) {
     console.log ("É número palíndromo.")
 } else{
     console.log ("Não é palíndromo")
