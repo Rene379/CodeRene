@@ -18,9 +18,10 @@ const numeroNormal = (n1);
 const numeroInvertido = numeroNormal.split("").reverse().join("");
 
 if (numeroNormal == numeroInvertido) {
-    console.log ("É número palíndromo.")
-} else{
-    console.log ("Não é palíndromo")
-    return
+    console.log("É número palíndromo.")
+} else {
+    console.log("Não é palíndromo")
+
 };
+
 
