@@ -21,16 +21,17 @@ const n1 = input("Informe o número: ");
 const numeroInteiro = Number(n1);
 const metade = numeroInteiro / 2;
 let y = 1;
-let soma = Number()
+let soma = Number();
 
 
 while (y <= metade) {
     if (numeroInteiro % y == 0) {
         soma = soma + y
         y++
-    } else {
+    }  else{
         break
     }
+    console.log(`${soma}`)
 };
 
 if (soma == numeroInteiro) {
