@@ -1,5 +1,5 @@
 /*
-**Exercício 1:** Faça um programa que imprima os números de 1 a 10.
+**Exercício 5:** Crie um programa que imprima a tabuada do 7.
 */
 
 function input(texto) {
@@ -9,9 +9,11 @@ function input(texto) {
         .toString().trim();
 };
 
-for ( i = 0; i <= 10; i++) {
-    console.log (`Os números são: ${i}`)
+
+
+const sete = 7;
+
+for (let i = 1; i <  11; i++) {
+    console.log(`${sete} X ${i} = ${(sete * i)}`)
 };
-
-
 
