@@ -21,7 +21,8 @@ while (numero != 0) {
     soma = soma + numero
 };
 
-const media = soma / contador;
+const media = (soma / contador);
+Math.round (media)
 console.log (`A média é: ${media}`);
 
 
