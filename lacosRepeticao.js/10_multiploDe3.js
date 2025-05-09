@@ -13,8 +13,8 @@ function input(texto) {
 
 let multiploDe3 = 30;
 
-for (let i = 3; i <= multiploDe3; i++) {
+for (let i = 1; i <= multiploDe3; i++) {
     if (i % 3 == 0) {
-        console.log(`Os números multiplos de ${i} são ${i}`)
+        console.log(`Os números multiplos de 3, entre 1 a 30 são ${i}`)
     }
 };
