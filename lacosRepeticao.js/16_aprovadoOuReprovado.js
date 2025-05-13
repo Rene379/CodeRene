@@ -23,7 +23,7 @@ for (nota = 0; nota < 10; nota++) {
 };
 
 if (media >= 7 && media <= 10) {
-    console.log("Aprovado! Parabéns!")
+    console.log(`Sua média foi de: ${media}. Aprovado! Parabéns!`)
 } else {
-    console.log("Reprovado. Na próxima você consegue!")
+    console.log(`Sua média foi de: ${media}. Reprovado. Na próxima você consegue!`)
 };
