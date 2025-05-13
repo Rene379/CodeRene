@@ -10,16 +10,16 @@ function input(texto) {
 };
 
 
-let nota = Number();
-let quantasNotas = 1;
-let somaDasnotas = undefined;
-const media = somaDasnotas / quantasNotas;
 
-for (nota = 0; nota < 10; nota++) {
+let quantasNotas = 1;
+let somaDasnotas = 0;
+let media = undefined;
+
+for (i = 0; i < 10; i++) {
     let nota = input(`Informe a nota ${quantasNotas}: `)
     quantasNotas++;
-    somaDasnotas = somaDasnotas + nota;
-    
+    somaDasnotas = somaDasnotas+nota;
+    media = (somaDasnotas / quantasNotas);
 };
 
 if (media >= 7 && media <= 10) {
