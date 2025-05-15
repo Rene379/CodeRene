@@ -20,3 +20,5 @@ for(i = linha ; i <= 20; i++) {
      linha += "*"
 };
 console.log(linha); 
+
+
