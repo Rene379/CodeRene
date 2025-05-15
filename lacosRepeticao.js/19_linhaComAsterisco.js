@@ -14,10 +14,10 @@ function input(texto) {
 
 
 let qtdeAsterisco = 20
-let linha = "";
+
 
 for(i = 1 ; i <= qtdeAsterisco; i++) {
-    linha = "*"
+    let linha = "*"
     process.stdout.write(linha)
 };
-console.log(linha); 
+console.log(); 
