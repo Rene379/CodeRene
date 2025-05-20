@@ -13,12 +13,12 @@ function input(texto) {
 
 let quantasNotas = 1;
 let somaDasnotas = 0;
-let media = undefined;
+let media = 0;
 
-for (i = 0; i < 10; i++) {
+for (i = 1; i <= 10; i++) {
     let nota = input(`Informe a nota ${quantasNotas}: `)
     quantasNotas++;
-    somaDasnotas = somaDasnotas+nota;
+    somaDasnotas = nota += nota;
     media = (somaDasnotas / quantasNotas);
 };
 
@@ -26,4 +26,5 @@ if (media >= 7 && media <= 10) {
     console.log(`Sua média foi de: ${media}. Aprovado! Parabéns!`)
 } else {
     console.log(`Sua média foi de: ${media}. Reprovado. Na próxima você consegue!`)
-};
+}
+
