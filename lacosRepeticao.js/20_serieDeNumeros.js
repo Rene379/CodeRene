@@ -12,10 +12,10 @@ function input(texto) {
 
 
 const q1 = input ("informe a quantidade de repetições: ")
-const repeticoes = Number(q1);
+const repitaAte = Number(q1);
 
 
-for (i = 1; i < repeticoes; i++) {
+for (i = 1; i < repitaAte; i++) {
    if (i % 2 == 1) {
     console.log (i)
     }
