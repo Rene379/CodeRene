@@ -28,3 +28,4 @@ for (i = 1; i <= linhas; i++) {
     }
     console.log(trianguloFloyd)
 };
+
