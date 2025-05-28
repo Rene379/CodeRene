@@ -40,7 +40,7 @@ for (i = 5; i >= 1; i--) {
     } for (a = 1; a <= 2 * i - 1; a++) {
         asterisco += "*"
     }
-    let ampulhetaBaixo = espaco + asterisco;
+    let ampulhetaBaixo = (espaco + asterisco);
     console.log(ampulhetaBaixo)
 };
 
